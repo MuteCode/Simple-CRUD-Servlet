@@ -20,7 +20,7 @@ public class MyServlet extends HttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("Servlet doGet running ...");
+		System.out.println("Servlet doGet running ....");
 		req.getRequestDispatcher("view.jsp").forward(req, resp);
 	}
 	
